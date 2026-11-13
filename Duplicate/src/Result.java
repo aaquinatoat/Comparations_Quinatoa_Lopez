@@ -4,11 +4,11 @@ import java.util.ArrayList;
 public class Result {
 
     private ArrayList<Integer> duplicados;
-    private int comparaciones;
+    private long comparaciones;
     private long tiempo;
 
     public Result(ArrayList<Integer> duplicados,
-                  int comparaciones,
+                  long comparaciones,
                   long tiempo) {
 
         this.duplicados = duplicados;
@@ -24,7 +24,7 @@ public class Result {
         return duplicados;
     }
 
-    public int getComparaciones() {
+    public long getComparaciones() {
         return comparaciones;
     }
 
