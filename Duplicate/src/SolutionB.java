@@ -1,4 +1,5 @@
 
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +12,7 @@ public class SolutionB {
 
         ArrayList<Integer> duplicados = new ArrayList<>();
 
-        int comparaciones = 0;
+        long comparaciones = 0;
 
         long inicio = System.nanoTime();
 
