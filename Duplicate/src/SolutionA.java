@@ -7,7 +7,7 @@ public class SolutionA {
 
         ArrayList<Integer> duplicados = new ArrayList<>();
 
-        int comparaciones = 0;
+        long comparaciones = 0;
 
         long inicio = System.nanoTime();
 
